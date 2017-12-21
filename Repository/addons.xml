@@ -26,8 +26,6 @@
 		<language/>
 	</extension>
 </addon>
-</addons>
-<addons>
 <addon id="plugin.video.Mytv"                                                                                                                                    
 	   name="Mytv"                                                 
 	   version="1.0.3"                                                                                                                                        
@@ -46,8 +44,6 @@
     <platform>all</platform>
   </extension>
 </addon>
-</addons>
-<addons>
 <addon id="repository.Ebs" name="Ebs_Repo" version="1.1" provider-name="Ebs">
 	<extension point="xbmc.addon.repository" name="Ebs_Repo">
 		<info compressed="false">https://raw.githubusercontent.com/ebs111/ebs_repo/master/repository/addons.xml</info>
@@ -60,8 +56,6 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-</addons>
-<addons>
 <addon id="repository.Jk$p"
 	   name="[B][COLOR white]J[/COLOR][COLOR deepskyblue]k[/COLOR][COLOR green]$[/COLOR][COLOR red]p[/COLOR][/B] repository"
 	   version="1.0.2"
@@ -77,8 +71,6 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-</addons>
-<addons>
 <addon id="repository.kodil" name=".[COLOR blue].Kodil [/COLOR][COLOR white] Repository [/COLOR]" version="1.3" provider-name="kodil">
     <extension point="xbmc.addon.repository" name=".Kodil  Repository ">
         <info compressed="false">https://raw.githubusercontent.com/kodil/kodil/master/addons.xml</info>
@@ -92,8 +84,6 @@
         <platform>all</platform>
     </extension>
 </addon>
-</addons>
-<addons>
 <addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="2.0" provider-name="noobsandnerds">
 	<extension point="xbmc.addon.repository" name="noobsandnerds Repository">
 		<dir>
@@ -121,8 +111,6 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-</addons>
-<addons>
 <addon id="repository.Shadow" name="Shadow_Repo" version="1.1" provider-name="Shadowoneb">
 	<extension point="xbmc.addon.repository" name="shadow_repo">
 		<info compressed="false">https://raw.githubusercontent.com/shadowoneb/shadowoneb.github.io/master/repository/addons.xml</info>
@@ -135,8 +123,6 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-</addons>
-<addons>
 <addon id="repository.Vnormus" name="Vnormus_Sport" version="1.0" provider-name="Vnormus">
 	<extension point="xbmc.addon.repository" name="Vnormus_Sport">
 		<info compressed="false">https://raw.githubusercontent.com/Vnormus/Vnormus_Sport/master/Repository/addon.xml</info>
@@ -149,8 +135,6 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-</addons>
-<addons>
 <addon id="repository.xbmc-israel" name=".[COLOR blue]XBMC Israeli [/COLOR][COLOR white] Streaming Sites[/COLOR]" version="1.0.4" provider-name="cubicle-vdo">
     <extension point="xbmc.addon.repository" name="XBMC Israeli streaming repo for streaming sites">
         <info compressed="false">https://raw.githubusercontent.com/cubicle-vdo/xbmc-israel/master/addons.xml</info>
