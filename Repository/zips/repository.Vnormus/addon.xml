@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.Vnormus" name="Vnormus_Sport" version="1.0" provider-name="Vnormus">
+	<extension point="xbmc.addon.repository" name="Vnormus_Sport">
+		<info compressed="false">https://raw.githubusercontent.com/Vnormus/Vnormus_Sport/master/Repository/addon.xml</info>
+		<checksum>https://raw.githubusercontent.com/Vnormus/Vnormus_Sport/master/Repository/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Vnormus/Vnormus_Sport/master/Repository/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Vnormus Repo</summary>
+		<description>Vnormus Repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
