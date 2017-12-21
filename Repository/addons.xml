@@ -28,23 +28,21 @@
 </addon>
 </addons>
 <addons>
-<addon id="plugin.video.MyYoutube"                                                                                                                                    
-	   name="MyYoutube"                      
+<addon id="plugin.video.Mytv"                                                                                                                                    
+	   name="Mytv"                                                 
 	   version="1.0.3"                                                                                                                                        
-	   provider-name="Ebs">
-	   <requires>
-    <import addon="script.module.urlresolver"/>
+	   provider-name="TvGuy">
+  <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests"/>
-	<import addon="script.module.youtube.dl" version="17.310.1a1"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="he"></summary>
-    <description lang="he">Youtube player</description>
+    <summary lang="he">Live TV</summary>
+    <description lang="he">Live TV</description>
     <platform>all</platform>
   </extension>
 </addon>
