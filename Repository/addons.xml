@@ -26,36 +26,6 @@
 		<language/>
 	</extension>
 </addon>
-<addon id="plugin.video.Mytv"                                                                                                                                    
-	   name="Mytv"                                                 
-	   version="1.0.3"                                                                                                                                        
-	   provider-name="TvGuy">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="he">Live TV</summary>
-    <description lang="he">Live TV</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-<addon id="repository.Ebs" name="Ebs_Repo" version="1.1" provider-name="Ebs">
-	<extension point="xbmc.addon.repository" name="Ebs_Repo">
-		<info compressed="false">https://raw.githubusercontent.com/ebs111/ebs_repo/master/repository/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/ebs111/ebs_repo/master/repository/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/ebs111/ebs_repo/master/repository/zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Ebs Repo</summary>
-		<description>Ebs Repo</description>
-		<platform>all</platform>
-	</extension>
-</addon>
 <addon id="repository.Jk$p"
 	   name="[B][COLOR white]J[/COLOR][COLOR deepskyblue]k[/COLOR][COLOR green]$[/COLOR][COLOR red]p[/COLOR][/B] repository"
 	   version="1.0.2"
@@ -108,30 +78,6 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>Home of The Community Portal</summary>
 		<description>Visit www.noobsandnerds.com and become a part of our great family, you get to choose what The Community Portal holds!</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-<addon id="repository.Shadow" name="Shadow_Repo" version="1.1" provider-name="Shadowoneb">
-	<extension point="xbmc.addon.repository" name="shadow_repo">
-		<info compressed="false">https://raw.githubusercontent.com/shadowoneb/shadowoneb.github.io/master/repository/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/shadowoneb/shadowoneb.github.io/master/repository/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/shadowoneb/shadowoneb.github.io/raw/master/repository/zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>shadow Repo IS back</summary>
-		<description>shadow Repo IS back</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-<addon id="repository.Vnormus" name="Vnormus_Sport" version="1.0" provider-name="Vnormus">
-	<extension point="xbmc.addon.repository" name="Vnormus_Sport">
-		<info compressed="false">https://raw.githubusercontent.com/Vnormus/Vnormus_Sport/master/Repository/addon.xml</info>
-		<checksum>https://raw.githubusercontent.com/Vnormus/Vnormus_Sport/master/Repository/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Vnormus/Vnormus_Sport/master/Repository/zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Vnormus Repo</summary>
-		<description>Vnormus Repo</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -211,5 +157,48 @@
     <description lang="he">Much better Log popup</description>
     <platform>all</platform>
   </extension>
+</addon>
+<addon <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.Fishenzon" name="Fishenzon repo" version="1.0.0" provider-name="Fishenzon">
+	<extension point="xbmc.addon.repository" name="Fishenzon repo">
+		<info compressed="false">https://raw.githubusercontent.com/fishenzon/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/fishenzon/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/fishenzon/repo/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Fishenzon Repo</summary>
+		<description>Fishenzon Repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon <?xml version="1.2" encoding="UTF-8"?>
+    <addon id="repository.ghostmedia" name="GhostMedia Repository" version="0.1.2" provider-name="ghostmedia">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="GhostMedia Repository">
+            <info compressed="false">https://vapourish-mounts.000webhostapp.com/_ghostrepo/addons.xml</info>
+            <checksum>https://vapourish-mounts.000webhostapp.com/_ghostrepo/addons.xml.md5</checksum>
+            <datadir zip="true">https://vapourish-mounts.000webhostapp.com/_ghostrepo</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>ghostmedia repository</summary>
+            <description>addons install</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+<addon <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.orloginRepo" name="orloginRepo" version="1.0.0" provider-name="orloginRepo">
+	<extension point="xbmc.addon.repository" name="orloginRepo">
+		<info compressed="false">http://cha1m.com/dark/orloginRepo/zips/addons.xml</info>
+		<checksum>http://cha1m.com/dark/orloginRepo/zips/addons.xml.md5</checksum>
+		<datadir zip="true">http://cha1m.com/dark/orloginRepo/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>orloginRepo</summary>
+		<description>orloginRepo</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 </addons>
